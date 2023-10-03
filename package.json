@@ -1,10 +1,10 @@
 {
-  "name": "hexo-theme-vivia",
+  "name": "hexo-theme-vivia-leo",
   "version": "0.4.2",
   "description": "A theme for Hexo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saicaca/hexo-theme-vivia.git"
+    "url": "git+https://github.com/leosouthey/hexo-theme-vivia.git"
   },
   "keywords": [
     "hexo",
