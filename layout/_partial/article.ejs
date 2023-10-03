@@ -1,4 +1,4 @@
-<% let cover = post.photos && post.photos.length %> 
+<% let cover = post.photos && post.photos.length %>
 <% let description = post.description && post.description.length %> 
 
 <article id="<%= post.layout %>-<%= post.slug %>" class="h-entry article article-type-<%= post.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
@@ -14,9 +14,9 @@
           <div class="need-seperator meta-info">
             <%- partial('post/category') %>  
           </div>
-          <div class="wordcount need-seperator meta-info">
-            <%- symbolsCount(post) %> <%- __('words') %> 
-          </div>
+<!--          <div class="wordcount need-seperator meta-info">-->
+<!--            <%- symbolsCount(post) %> <%- __('words') %>-->
+<!--          </div>-->
         </div>
         <%- partial('post/tag') %>
       </header>
